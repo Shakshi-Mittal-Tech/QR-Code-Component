@@ -10,12 +10,13 @@ body {
 }
 .card {
     background-color: white;
-    border-radius: 0.625rem;
-    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.1);
+    border-radius: .625rem;
+    box-shadow: 0 .625rem 1.25rem rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 260px;
+    max-width: 16.25rem;
     text-align: center;
-    padding: 1.25rem;
+    padding: clamp(1rem, 2vw, 1.25rem);
+    box-sizing: border-box;
 }
 img {
     width: 100%;
@@ -25,11 +26,11 @@ img {
 h1 {
     font-size: 1.25rem;
     font-weight: 700;
-    margin: 1rem 0 0.5rem;
+    margin: 1rem 0 .5rem;
     color: hsl(218, 44%, 22%);
 }
 p {
-    font-size: 0.875rem;
+    font-size: .875rem;
     color: hsl(220, 15%, 55%);
-    margin-bottom: 1.25rem;
+    margin-block-end: 1.25rem;
 }
